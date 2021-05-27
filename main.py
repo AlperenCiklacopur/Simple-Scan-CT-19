@@ -17,7 +17,7 @@ def resize_image(image, image_size):
     return cv2.resize(image.copy(), image_size, interpolation = cv2.INTER_AREA)
 
 disease_types=['COVID', 'non-COVID']
-data_dir = 'C:/Users/Alperen/PycharmProjects/pythonProject2/kaggle/input'
+data_dir = 'Your dataset path'
 train_dir = os.path.join(data_dir)
 
 train_data = []
